@@ -33,6 +33,15 @@ h5 {
 a:focus {
   outline: none;
 }
+.info-item p span a,
+.contact-item a {
+  color: #43aa8b;
+  text-decoration: none;
+}
+.info-item p span a:hover,
+.contact-item a:hover {
+  text-decoration: underline;
+}
 
 .line {
   height: 2px;
@@ -365,7 +374,7 @@ h3.my-profession {
   flex: 0 0 40%;
   max-width: 100%;
   margin: 20px auto;
-  display: none;
+  display: block;
 }
 .info-img img {
   height: 200px;
