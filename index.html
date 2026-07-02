@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Tayyab | Software Engineer</title>
+    <!-- styles files -->
+    <!-- Popup -->
+    <link rel="stylesheet" href="css/vendors/magnific-popup.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/vendors/font-awesome.min.css" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/vendors/owl.carousel.min.css" />
+    <!-- custom style  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/primary-color.css" />
+    <link
+      rel="stylesheet"
+      title="green"
+      class="alternate-style"
+      href="css/colors/green.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="blue"
+      class="alternate-style"
+      href="css/colors/blue.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="goldenrod"
+      class="alternate-style"
+      href="css/colors/goldenrod.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="magenta"
+      class="alternate-style"
+      href="css/colors/magenta.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="red"
+      class="alternate-style"
+      href="css/colors/red.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="purple"
+      class="alternate-style"
+      href="css/colors/purple.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="orange"
+      class="alternate-style"
+      href="css/colors/orange.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="blueviolet"
+      class="alternate-style"
+      href="css/colors/blueviolet.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="yellow"
+      class="alternate-style"
+      href="css/colors/yellow.css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      title="yellowgreen"
+      class="alternate-style"
+      href="css/colors/yellowgreen.css"
+      disabled
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html"><span>M</span>uhammad Tayyab</a>
+      </div>
+      <div class="menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" title="home"
+              ><i class="fa fa-home"></i>Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" title="about"
+              ><i class="fa fa-user"></i> About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link" title="services"
+              ><i class="fa fa-list"></i>Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link" title="portfolio"
+              ><i class="fa fa-briefcase"></i>Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" title="contact"
+              ><i class="fa fa-comments"></i>Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Menu end -->
+    <main class="main">
+      <div class="btn-toggle" id="btn-toggle">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+      </div>
+      <!-- style switcher -->
+      <div class="style-switch">
+        <div class="icon"><i class="fa fa-cog fa-spin"></i></div>
+        <div class="colors-switch">
+          <h3>Style Switcher</h3>
+          <a href="#" title="green" onclick="setActivestyle('green')"
+            ><img src="img/green.png" alt="green"
+          /></a>
+          <a href="#" title="orange" onclick="setActivestyle('orange')"
+            ><img src="img/orange.png" alt="orange"
+          /></a>
+          <a href="#" title="red" onclick="setActivestyle('red')"
+            ><img src="img/red.png" alt="red"
+          /></a>
+          <a href="#" title="yellow" onclick="setActivestyle('yellow')"
+            ><img src="img/yellow.png" alt="yellow"
+          /></a>
+          <a
+            href="#"
+            title="yellowgreen"
+            onclick="setActivestyle('yellowgreen')"
+            ><img src="img/yellowgreen.png" alt="yellowgreen"
+          /></a>
+          <a href="#" title="purple" onclick="setActivestyle('purple')"
+            ><img src="img/purple.png" alt="purple"
+          /></a>
+          <a href="#" title="blueviolet" onclick="setActivestyle('blueviolet')"
+            ><img src="img/blueviolet.png" alt="blueviolet"
+          /></a>
+          <a href="#" title="goldenrod" onclick="setActivestyle('goldenrod')"
+            ><img src="img/goldenrod.png" alt="goldenrod"
+          /></a>
+          <a href="#" title="magenta" onclick="setActivestyle('magenta')"
+            ><img src="img/magenta.png" alt="magenta"
+          /></a>
+          <a href="#" title="blue" onclick="setActivestyle('blue')">
+            <img src="img/blue.png" alt="blue"
+          /></a>
+        </div>
+        <div class="dark-light">
+          <h3>Body skin</h3>
+          <label>
+            <input
+              type="radio"
+              class="body-skin"
+              name="body-style"
+              value="light"
+            />
+            Light
+          </label>
+          <label>
+            <input
+              type="radio"
+              class="body-skin"
+              name="body-style"
+              value="dark"
+              checked
+            />
+            Dark
+          </label>
+        </div>
+      </div>
+      <!-- Home -->
+      <section class="section home" id="home">
+        <div class="container-home">
+          <div class="row">
+            <div class="home-info">
+              <h3 class="hello">
+                Hello, my name is <span class="name"> Muhammad Tayyab </span>
+              </h3>
+              <h3 class="my-profession">I'm a <span class="typing"></span></h3>
+              <p>
+                I'm a Software Engineer and Full-Stack Developer building
+                scalable web applications with React, Node.js, Flask, Python,
+                and PostgreSQL. I design REST APIs, JWT authentication, Stripe
+                payments, and role-based access control across multi-user
+                systems.
+              </p>
+              <a href="#about" class="btn home-btn nav-link" title="about"
+                >More About Me</a
+              >
+            </div>
+            <div class="home-img">
+              <img src="img/tayyab.jpeg" alt="Muhammad Tayyab" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home end -->
+
+      <!--About  -->
+      <section class="section about hidden" id="about">
+        <div class="section-title">
+          <h1>About <span>Me</span></h1>
+        </div>
+        <div class="container">
+          <h2 class="infos-title padding20">Personal Infos :</h2>
+          <!-- <div class="row">
+            <div class="info-img">
+              <img src="img/a71.jpg" alt="" />
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="personal-info-item padding20">
+              <div class="row">
+                <div class="info-item">
+                  <p>First Name : <span>Muhammad</span></p>
+                  <p>Last Name : <span>Tayyab</span></p>
+                  <p>Role : <span>Software Engineer</span></p>
+                  <p>Degree : <span>BS Computer Science, UET</span></p>
+                  <p>Languages : <span>English, Urdu</span></p>
+                </div>
+                <div class="info-item">
+                  <p>Address : <span>Lahore, Pakistan</span></p>
+                  <p>Email : <span>tayyabashraf629@gmail.com</span></p>
+                  <p>Phone : <span>+92-300-8453640</span></p>
+                  <p>GitHub : <span>Muhammadtayyaab</span></p>
+                  <p>Freelance : <span>Available</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="personal-info-item Statistics">
+              <div class="row">
+                <div class="statistics-item">
+                  <div class="statistics-item-inner">
+                    <span class="stat-numbre">3+</span>
+                    <p>MAJOR PROJECTS</p>
+                  </div>
+                </div>
+                <div class="statistics-item">
+                  <div class="statistics-item-inner">
+                    <span class="stat-numbre">10+</span>
+                    <p>TECHNOLOGIES</p>
+                  </div>
+                </div>
+
+                <div class="statistics-item">
+                  <div class="statistics-item-inner">
+                    <span class="stat-numbre">1</span>
+                    <p>CERTIFICATION</p>
+                  </div>
+                </div>
+                <div class="statistics-item">
+                  <div class="statistics-item-inner">
+                    <span class="stat-numbre">2026</span>
+                    <p>CS GRADUATE (UET)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a download="" href="#" class="btn about-btn">DOWNLOAD CV</a>
+
+          <span class="line"></span>
+
+          <h2 class="Skills padding20">MY SKILLS</h2>
+          <div class="row">
+            <div class="front-end padding20">
+              <h3 class="skills-title">FRONTEND</h3>
+              <div class="skills-data">
+                <span class="skills-name">React</span>
+                <span class="skills-number">85%</span>
+                <span class="skills-bar skills-html"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">JavaScript</span>
+                <span class="skills-number">85%</span>
+                <span class="skills-bar skills-css"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">HTML5 &amp; CSS3</span>
+                <span class="skills-number">90%</span>
+                <span class="skills-bar skills-java"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">Tailwind / Bootstrap</span>
+                <span class="skills-number">85%</span>
+                <span class="skills-bar skills-boot"></span>
+              </div>
+            </div>
+            <div class="Backend padding20">
+              <h3 class="skills-title">BACKEND &amp; DATA</h3>
+              <div class="skills-data">
+                <span class="skills-name">Python / Flask</span>
+                <span class="skills-number">90%</span>
+                <span class="skills-bar skills-php"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">Node.js &amp; REST APIs</span>
+                <span class="skills-number">80%</span>
+                <span class="skills-bar skills-pyt"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">PostgreSQL / SQL</span>
+                <span class="skills-number">85%</span>
+                <span class="skills-bar skills-sec"></span>
+              </div>
+              <div class="skills-data">
+                <span class="skills-name">C++ / C#</span>
+                <span class="skills-number">80%</span>
+                <span class="skills-bar skills-ru"></span>
+              </div>
+            </div>
+          </div>
+          <span class="line"></span>
+          <h2 class="education-dip-title padding20">EDUCATION & DIPLOMA</h2>
+          <div class="row">
+            <div class="education">
+              <div class="education-inner padding20">
+                <h3 class="education-title">EDUCATION</h3>
+                <div class="education-dip-item">
+                  <i class="fa fa-graduation-cap"></i>
+                  <span class="date">2022 - 2026</span>
+                  <h3 class="domain-edu">
+                    BS Computer Science <span>-UET, Lahore</span>
+                  </h3>
+                  <p>
+                    Bachelor of Science in Computer Science at the University of
+                    Engineering and Technology (UET), Lahore. Final-year student
+                    focused on software engineering, data structures, OOP, and
+                    full-stack web development.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="diploma">
+              <div class="diploma-inner padding20">
+                <h3 class="diploma-title">TRAINING &amp; CERTIFICATION</h3>
+                <div class="education-dip-item">
+                  <i class="fa fa-certificate"></i>
+                  <span class="date">2022</span>
+                  <h3 class="domain-edu">
+                    Full-Stack Web Development <span>-NAVTTC</span>
+                  </h3>
+                  <p>
+                    Professional-level full-stack training by the National
+                    Vocational and Technical Training Commission, Pakistan.
+                    Built hands-on projects with HTML5, CSS3, JavaScript, React,
+                    Node.js, Flask, and PostgreSQL, covering modern frameworks,
+                    deployment workflows, and production-grade engineering
+                    practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About end -->
+
+      <!-- Services -->
+      <section class="services section hidden" id="services">
+        <div class="section-title">
+          <h1>Services</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon"><i class="fa fa-code"></i></div>
+                <h4 class="service-title">FULL-STACK WEB DEVELOPMENT</h4>
+                <p class="service-info">
+                  End-to-end web applications built with React, Node.js, Flask,
+                  and PostgreSQL — from responsive frontends to backend APIs and
+                  relational data models.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon"><i class="fa fa-server"></i></div>
+                <h4 class="service-title">REST API DEVELOPMENT</h4>
+                <p class="service-info">
+                  Secure, scalable REST APIs with JWT authentication,
+                  role-based access control, and permission-scoped queries for
+                  reliable multi-user systems.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon">
+                  <i class="fa fa-credit-card"></i>
+                </div>
+                <h4 class="service-title">PAYMENT INTEGRATION</h4>
+                <p class="service-info">
+                  Stripe checkout, subscription billing, webhook-driven order
+                  synchronisation, and automated invoicing across the full
+                  purchase lifecycle.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon"><i class="fa fa-database"></i></div>
+                <h4 class="service-title">DATABASE DESIGN</h4>
+                <p class="service-info">
+                  Relational data modelling with PostgreSQL and SQL, plus
+                  MongoDB and the MERN stack — clean schemas built for
+                  integrity, performance, and scale.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon"><i class="fa fa-desktop"></i></div>
+                <h4 class="service-title">DESKTOP APPLICATIONS</h4>
+                <p class="service-info">
+                  C# WinForms desktop software built on a clean 3-tier
+                  architecture with role-based access, full CRUD, and solid OOP
+                  design principles.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="service-icon"><i class="fa fa-cogs"></i></div>
+                <h4 class="service-title">AUTOMATION</h4>
+                <p class="service-info">
+                  Python and Pandas automation — including bulk personalised
+                  email campaigns via SMTP with data cleaning, merge fields, and
+                  delivery tracking.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services end -->
+
+      <!-- Portfolio -->
+      <section class="section portfolio hidden" id="portfolio">
+        <div class="section-title">
+          <h1>Portfolio</h1>
+        </div>
+
+        <div class="container">
+          <h2 class="project-title padding20">My Last Projects :</h2>
+          <div class="row popup-gallery">
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/1.jpg" title="ClickBook — SaaS Website Builder"
+                  ><img src="img/1.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/2.jpg" title="Hotel Management System (C# WinForms)"
+                  ><img src="img/2.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/3.jpg" title="Email Automation System (Flask)"
+                  ><img src="img/3.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/4.jpg" title="REST API & JWT Authentication"
+                  ><img src="img/4.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/5.jpg" title="Stripe Payment Integration"
+                  ><img src="img/5.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-inner">
+                <a href="img/6.jpg" title="Analytics Dashboard (React)"
+                  ><img src="img/6.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <span class="line"></span>
+          <h2 class="project-title padding20">Project Statistics :</h2>
+          <div class="row">
+            <div class="projects-items project-domain">
+              <div class="projects-items-inner">
+                <span
+                  class="porject-numbre time"
+                  data-from="0"
+                  data-to="3"
+                  data-speed="4000"
+                  >3</span
+                >
+                <p class="project-domain-name">
+                  Featured Projects <i class="fa fa-laptop"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="projects-items">
+              <div class="row">
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="7"
+                      data-speed="4000"
+                      >7</span
+                    >
+                    <p class="project-name">Languages</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="5"
+                      data-speed="4000"
+                      >5</span
+                    >
+                    <p class="project-name">Frameworks</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="3"
+                      data-speed="4000"
+                      >3</span
+                    >
+                    <p class="project-name">Databases</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="4"
+                      data-speed="4000"
+                      >4</span
+                    >
+                    <p class="project-name">Integrations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="projects-items project-domain">
+              <div class="projects-items-inner">
+                <span
+                  class="porject-numbre time"
+                  data-from="0"
+                  data-to="10"
+                  data-speed="4000"
+                  >10</span
+                >
+                <p class="project-domain-name">
+                  Core Technologies <i class="fa fa-code"></i>
+                </p>
+              </div>
+            </div>
+            <div class="projects-items">
+              <div class="row">
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="90"
+                      data-speed="4000"
+                      >90</span
+                    >
+                    <p class="project-name">Python / Flask %</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="85"
+                      data-speed="4000"
+                      >85</span
+                    >
+                    <p class="project-name">React / JS %</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="85"
+                      data-speed="4000"
+                      >85</span
+                    >
+                    <p class="project-name">PostgreSQL / SQL %</p>
+                  </div>
+                </div>
+                <div class="project-item-info">
+                  <div class="project-item-inner">
+                    <span
+                      class="number time"
+                      data-from="0"
+                      data-to="80"
+                      data-speed="4000"
+                      >80</span
+                    >
+                    <p class="project-name">C++ / C# %</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <span class="line"></span>
+          <h2 class="project-title padding20">Project Highlights :</h2>
+          <div class="row padding20">
+            <div class="testimonial">
+              <h3 class="testimonial-title">Featured Work</h3>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <p class="testimony">
+                    " ClickBook — a full-stack SaaS website builder with
+                    drag-and-drop editing, live preview, version history, and
+                    one-click publishing. Built on a Flask + PostgreSQL REST API
+                    with JWT auth and role-based access, Stripe subscription
+                    billing, and a real-time analytics dashboard. "
+                  </p>
+
+                  <div class="testimonial-img">
+                    <img src="img/user2.jpg" alt="" />
+                  </div>
+                  <span class="name">ClickBook</span>
+                  <h4 class="profession">Flask · PostgreSQL · React · Stripe</h4>
+                </div>
+                <div class="item">
+                  <p class="testimony">
+                    " Hotel Management System — a C# WinForms desktop app on a
+                    clean 3-tier architecture. Role-based access for Manager and
+                    Customer, full CRUD for reservations, rooms, and guests with
+                    validation and error handling, built on solid OOP
+                    principles. "
+                  </p>
+
+                  <div class="testimonial-img">
+                    <img src="img/user1.jpg" alt="" />
+                  </div>
+                  <span class="name">Hotel Management System</span>
+                  <h4 class="profession">C# · WinForms · 3-Tier · OOP</h4>
+                </div>
+                <div class="item">
+                  <p class="testimony">
+                    " Email Automation System — a Flask web app that automates
+                    personalised bulk email campaigns from Excel lists. Uses
+                    Pandas to clean and validate data, merge fields for
+                    per-recipient content, and SMTP dispatch with delivery
+                    tracking and retry handling. "
+                  </p>
+
+                  <div class="testimonial-img">
+                    <img src="img/user3.jpg" alt="" />
+                  </div>
+                  <span class="name">Email Automation System</span>
+                  <h4 class="profession">Flask · Python · Pandas · SMTP</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio end -->
+
+      <!-- Contact -->
+      <section class="contact section hidden" id="contact">
+        <div class="section-title">
+          <h1>Get In <span>Touch</span></h1>
+        </div>
+
+        <div class="container">
+          <h3 class="contact-title padding20">Have You Any Qestions ?</h3>
+          <h4 class="contact-sub-title padding20">I'M AT YOUR SERVICE</h4>
+
+          <div class="row">
+            <div class="contact-info-item padding20">
+              <div class="contact-item">
+                <i class="fa fa-map-marker"></i>
+                <span class="contact-name">Address </span>
+                Lahore, Pakistan
+              </div>
+            </div>
+            <div class="contact-info-item padding20">
+              <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <span class="contact-name">Phone</span>
+                +92-300-8453640
+              </div>
+            </div>
+
+            <div class="contact-info-item padding20">
+              <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <span class="contact-name">Email </span>
+                tayyabashraf629@gmail.com
+              </div>
+            </div>
+
+            <div class="contact-info-item padding20">
+              <div class="contact-item">
+                <i class="fa fa-github"></i>
+                <span class="contact-name">GitHub </span>
+                github.com/Muhammadtayyaab
+              </div>
+            </div>
+          </div>
+
+          <h3 class="contact-title padding20">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padding20">
+            I'M VERY RESPONSIVE TO MESSAGES
+          </h4>
+
+          <div class="send_error padding20" id="send_error">
+            <p class="error-message" id="error-message"></p>
+          </div>
+          <div class="send_message padding20" id="send_message">
+            <p class="valid_send">MESSAGE SENT</p>
+          </div>
+          <form>
+            <div class="from-group row">
+              <div class="input-item">
+                <input type="text" id="name" placeholder="Your Name" />
+              </div>
+              <div class="input-item">
+                <input type="email" id="email" placeholder=" Your Email" />
+              </div>
+            </div>
+
+            <div class="from-group row">
+              <div class="subject-message">
+                <input
+                  class="input-sub"
+                  id="subject"
+                  type="text"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="subject-message">
+                <textarea
+                  class="message"
+                  id="message"
+                  name="Message "
+                  rows="10"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn contact-btn">
+                SEND MESSAGE
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact End -->
+
+      <span class="line line-footer"></span>
+      <footer class="padding20">
+        <p>
+          <span class="name"> Muhammad Tayyab</span> Copyright &copy;<span
+            id="year"
+          ></span>
+        </p>
+      </footer>
+    </main>
+
+    <!-- scripts files-->
+    <!-- jquery -->
+    <script src="js/vendors/jquery-3.3.1.min.js"></script>
+    <!-- Typed -->
+    <script src="js/vendors/typed.js/2.0.11/typed.min.js"></script>
+    <!-- Popup -->
+    <script src="js/vendors/jquery.magnific-popup.min.js"></script>
+    <!-- Particles -->
+    <script src="js/vendors/particles.js"></script>
+    <script src="js/vendors/app.js"></script>
+    <!-- owl-carousel -->
+    <script src="js/vendors/owl.carousel.min.js"></script>
+    <!-- custom script javascript -->
+    <script src="js/jquery_script.js"></script>
+    <script src="js/my-script.js"></script>
+  </body>
+</html>
